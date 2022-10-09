@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+
+car Shop
+
+{% endblock title %}
+
+{% block content %}
+
+{% for car in car_list%}
+<div class="car">
+<h2><a href="{{ car.get_absalute_url }}">{{ car.title }}</a></h2>
+<img src = "{{car.image.url }}">
+<p class = "car-date">car was added {{car.owner }} {{cars.created }}</p>
+<p class = "car-date"> data of last update: {{ car.updated }}</p>
+<h3> car description</h3>
+<p>{{car.description}}</p>
+</div>
+{% endfor %}
+
+
+{% endblock content %}
+

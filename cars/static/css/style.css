@@ -1,0 +1,52 @@
+body { 
+    background-color:aqua; 
+    margin-left: 20%; 
+    margin-right: 20%;
+}
+
+.car {
+    border: darkblue 5px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    height: 80%;
+}
+
+.car h2 {
+    border-bottom: violet 6px double;
+    color: darkviolet;
+}
+
+.car h3 {
+    color: darkgreen;
+}
+.car-date{
+    font-size: smaller;
+    margin: 0;
+    font-style: italic;
+}
+.car a {
+    text-decoration:none;
+    color:darkviolet;
+}
+.car-detail-title-1 {
+    color: darkviolet;
+    border-bottom: white 5px double;
+    font-weight: normal;
+}
+.car-detail-title-2 {
+    color: darkgreen;
+    border-bottom: greenyellow 3px solid;
+    font-weight: normal;
+}
+.price {text-decoration: underline;
+font-weight: bold;
+color: magenta;
+}
