@@ -50,3 +50,32 @@ img {
 font-weight: bold;
 color: magenta;
 }
+.login-form input[type=submit]{
+    font-weight: bold;
+    background-color:cornflowerblue;
+    color: cornsilk;
+    padding: 10px 20px;
+    font-size: 20px;
+    width: auto;
+    
+
+}
+.login-form label {
+    display:block; 
+    font-size: 20px;}
+.login-form input,textarea{
+    margin-bottom: 10px;
+    background-color:ghostwhite;
+    border: 0;
+    padding: 6px 10px;
+    font: size 20px;
+    width: 30%;
+}
+.login-heading {
+    font-weight: normal;
+border-bottom: 1px solid grey;
+}
+login-para{
+    font-size: 20px;
+    font-weight: bold;
+}
